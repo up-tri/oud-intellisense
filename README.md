@@ -1,3 +1,5 @@
+https://marketplace.visualstudio.com/items?itemName=up-tri.oud-intellisense
+
 # oud-intellisense
 
 - syntax highlighting for OuDia file (.oud).
