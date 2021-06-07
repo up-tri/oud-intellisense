@@ -1,0 +1,30 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "oudia",
+  "scopeName": "source.oud",
+  "patterns": [{
+    "include": "#document"
+  }],
+  "repository": {
+    "document": {
+      "patterns": [{
+        "include": "#namespace"
+      }]
+    },
+    "namespace": {
+      "patterns": [{
+          "name": "support.class",
+          "match": "^.+(?<=\\.)$"
+        },
+        {
+          "name": "support.type.property-name",
+          "match": "^(?~|\\=|.+)"
+        },
+        {
+          "name": "string.quoted",
+          "match": "(?<=^[a-zA-Z]+\\=)[\\s\\S]+"
+        }
+      ]
+    }
+  }
+}
