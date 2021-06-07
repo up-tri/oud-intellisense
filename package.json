@@ -6,6 +6,7 @@
   "engines": {
     "vscode": "^1.56.0"
   },
+  "publisher": "up-tri",
   "author": {
     "name": "up-tri",
     "email": "yaki-shake@up-tri.me"
