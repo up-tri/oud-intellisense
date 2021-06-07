@@ -1,11 +1,16 @@
 {
   "name": "oud-intellisense",
   "displayName": "oud-intellisense",
-  "description": "",
+  "description": "OuDia diagram file helper.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.56.0"
   },
+  "author": {
+    "name": "up-tri",
+    "email": "yaki-shake@up-tri.me"
+  },
+  "homepage": "https://github.com/up-tri/oud-intellisense",
   "categories": [
     "Other"
   ],
