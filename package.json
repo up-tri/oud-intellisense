@@ -23,7 +23,8 @@
     "languages": [{
       "id": "oudia",
       "extensions": [
-        ".oud"
+        ".oud",
+        ".oud2"
       ],
       "configuration": "./language-configuration.json"
     }],
