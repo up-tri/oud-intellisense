@@ -10,6 +10,7 @@
     "ignore": []
   },
   "formatter": {
+    "useEditorconfig": true,
     "enabled": true,
     "indentStyle": "space",
     "indentWidth": 2
