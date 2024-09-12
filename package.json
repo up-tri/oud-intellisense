@@ -2,9 +2,13 @@
   "name": "oud-intellisense",
   "displayName": "oud-intellisense",
   "description": "OuDia diagram file helper.",
-  "version": "1.0.0",
+  "version": "1.0.1-dev.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:up-tri/oud-intellisense.git"
+  },
   "engines": {
-    "vscode": "^1.56.0"
+    "vscode": "^1.93.0"
   },
   "publisher": "up-tri",
   "author": {
@@ -13,8 +17,8 @@
   },
   "homepage": "https://github.com/up-tri/oud-intellisense",
   "categories": ["Other"],
-  "activationEvents": ["onCommand:oud-intellisense.helloWorld"],
-  "main": "./out/extension.js",
+  "activationEvents": [],
+  "main": "./dist/extension.js",
   "contributes": {
     "languages": [
       {
