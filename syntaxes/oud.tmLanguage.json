@@ -2,17 +2,22 @@
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
   "name": "oudia",
   "scopeName": "source.oud",
-  "patterns": [{
-    "include": "#document"
-  }],
+  "patterns": [
+    {
+      "include": "#document"
+    }
+  ],
   "repository": {
     "document": {
-      "patterns": [{
-        "include": "#namespace"
-      }]
+      "patterns": [
+        {
+          "include": "#namespace"
+        }
+      ]
     },
     "namespace": {
-      "patterns": [{
+      "patterns": [
+        {
           "name": "support.class",
           "match": "^.+(?<=\\.)$"
         },
