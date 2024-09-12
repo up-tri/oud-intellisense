@@ -13,4 +13,5 @@ Initial release
 
 ## developer
 
-- up-tri<yaki-shake@up-tri.me>
+- up-tri
+  email: yaki-shake@up-tri.me
