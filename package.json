@@ -2,7 +2,7 @@
   "name": "oud-intellisense",
   "displayName": "oud-intellisense",
   "description": "OuDia diagram file helper.",
-  "version": "1.0.1-dev.0",
+  "version": "1.1.0",
   "repository": {
     "type": "git",
     "url": "git@github.com:up-tri/oud-intellisense.git"
