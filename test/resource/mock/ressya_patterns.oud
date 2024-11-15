@@ -1,0 +1,109 @@
+FileType=OuDia.1.02
+Rosen.
+Rosenmei=eki_patterns
+Eki.
+Ekimei=eki_normal__starting_terminal
+Ekijikokukeisiki=Jikokukeisiki_NoboriChaku
+Ekikibo=Ekikibo_Ippan
+.
+Eki.
+Ekimei=eki_normal_last_terminal
+Ekijikokukeisiki=Jikokukeisiki_KudariChaku
+Ekikibo=Ekikibo_Ippan
+.
+Ressyasyubetsu.
+Syubetsumei=traintype_solid
+JikokuhyouMojiColor=00000000
+JikokuhyouFontIndex=0
+DiagramSenColor=00000000
+DiagramSenStyle=SenStyle_Jissen
+StopMarkDrawType=EStopMarkDrawType_Nothing
+.
+Ressyasyubetsu.
+Syubetsumei=traintype_solid__text_red__line_blue
+JikokuhyouMojiColor=000000FF
+JikokuhyouFontIndex=0
+DiagramSenColor=00FF0000
+DiagramSenStyle=SenStyle_Jissen
+StopMarkDrawType=EStopMarkDrawType_Nothing
+.
+Ressyasyubetsu.
+Syubetsumei=traintype_dashed
+JikokuhyouMojiColor=00000000
+JikokuhyouFontIndex=0
+DiagramSenColor=00000000
+DiagramSenStyle=SenStyle_Hasen
+StopMarkDrawType=EStopMarkDrawType_Nothing
+.
+Ressyasyubetsu.
+Syubetsumei=traintype_dotted
+JikokuhyouMojiColor=00000000
+JikokuhyouFontIndex=0
+DiagramSenColor=00000000
+DiagramSenStyle=SenStyle_Tensen
+StopMarkDrawType=EStopMarkDrawType_Nothing
+.
+Ressyasyubetsu.
+Syubetsumei=traintype_drawstopmark
+JikokuhyouMojiColor=00000000
+JikokuhyouFontIndex=0
+DiagramSenColor=00000000
+DiagramSenStyle=SenStyle_Jissen
+StopMarkDrawType=EStopMarkDrawType_DrawOnStop
+.
+Ressyasyubetsu.
+Syubetsumei=traintype_solid__withalias
+Ryakusyou=alias name
+JikokuhyouMojiColor=00000000
+JikokuhyouFontIndex=0
+DiagramSenColor=00000000
+DiagramSenStyle=SenStyle_Jissen
+StopMarkDrawType=EStopMarkDrawType_Nothing
+.
+Dia.
+DiaName=target_dia
+Kudari.
+Ressya.
+Houkou=Kudari
+Syubetsu=0
+Ressyabangou=
+Ressyamei=
+EkiJikoku=1;500,1;501,1;502,1;503/504,1;505/
+.
+.
+Nobori.
+Ressya.
+Houkou=Nobori
+Syubetsu=0
+Ressyabangou=
+Ressyamei=
+EkiJikoku=1;500,1;501,1;502,1;503/504,1;505/
+.
+.
+.
+KitenJikoku=400
+DiagramDgrYZahyouKyoriDefault=60
+Comment=comment\nafterbreakline
+.
+DispProp.
+JikokuhyouFont=PointTextHeight=9;Facename=ＭＳ ゴシック
+JikokuhyouFont=PointTextHeight=9;Facename=ＭＳ ゴシック;Bold=1
+JikokuhyouFont=PointTextHeight=9;Facename=ＭＳ ゴシック;Itaric=1
+JikokuhyouFont=PointTextHeight=9;Facename=ＭＳ ゴシック;Bold=1;Itaric=1
+JikokuhyouFont=PointTextHeight=9;Facename=ＭＳ ゴシック
+JikokuhyouFont=PointTextHeight=9;Facename=ＭＳ ゴシック
+JikokuhyouFont=PointTextHeight=9;Facename=ＭＳ ゴシック
+JikokuhyouFont=PointTextHeight=9;Facename=ＭＳ ゴシック
+JikokuhyouVFont=PointTextHeight=9;Facename=@ＭＳ ゴシック
+DiaEkimeiFont=PointTextHeight=9;Facename=ＭＳ ゴシック
+DiaJikokuFont=PointTextHeight=9;Facename=ＭＳ ゴシック
+DiaRessyaFont=PointTextHeight=9;Facename=ＭＳ ゴシック
+CommentFont=PointTextHeight=9;Facename=ＭＳ ゴシック
+DiaMojiColor=00000000
+DiaHaikeiColor=00FFFFFF
+DiaRessyaColor=00000000
+DiaJikuColor=00C0C0C0
+EkimeiLength=6
+JikokuhyouRessyaWidth=6
+.
+FileTypeAppComment=OuDia Ver. 1.02.02
