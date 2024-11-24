@@ -6,4 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+none
+
+## [1.2.0] - 2024-11-24
+
+- outline view(#7)
