@@ -2,7 +2,7 @@
   "name": "oud-intellisense",
   "displayName": "oud-intellisense",
   "description": "OuDia diagram file helper.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "repository": {
     "type": "git",
     "url": "git@github.com:up-tri/oud-intellisense.git"
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/up-tri/oud-intellisense",
   "categories": ["Other"],
-  "activationEvents": [],
+  "activationEvents": ["onLanguage:oudia"],
   "main": "./dist/extension.js",
   "contributes": {
     "languages": [
@@ -27,40 +27,43 @@
         "configuration": "./language-configuration.json"
       }
     ],
+    "documentSymbolProvider": [
+      {
+        "language": "oudia"
+      }
+    ],
     "grammars": [
       {
         "language": "oudia",
         "scopeName": "source.oud",
         "path": "./syntaxes/oud.tmLanguage.json"
       }
-    ],
-    "commands": [
-      {
-        "command": "oud-intellisense.helloWorld",
-        "title": "Hello World"
-      }
     ]
   },
   "scripts": {
     "vscode:prepublish": "tsc",
-    "build": "tsc --project tsconfig.build.json",
-    "build:watch": "tsc --project tsconfig.build.json --watch",
+    "build": "tsc --project tsconfig.json",
+    "build:watch": "tsc --project tsconfig.json --watch",
     "lint": "biome format .",
     "lint:fix": "biome format --write .",
-    "test": "jest"
+    "test": "node_modules/.bin/vscode-test"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
     "@babel/preset-typescript": "^7.24.7",
     "@biomejs/biome": "1.9.0",
-    "@types/jest": "^29.5.12",
+    "@types/mocha": "10.0.10",
     "@types/node": "^20.0",
-    "@types/vscode": "^1.93.0",
+    "@types/vscode": "1.93.0",
+    "@vscode/test-cli": "0.0.10",
+    "@vscode/test-electron": "2.4.1",
     "babel-jest": "^29.7.0",
     "glob": "^11.0.0",
-    "jest": "^29.7.0",
-    "typescript": "~5.5.4",
-    "vscode-test": "^1.6.1"
+    "mocha": "10.8.2",
+    "typescript": "~5.5.4"
+  },
+  "dependencies": {
+    "@route-builders/oud-to-json": "2.0.13"
   }
 }

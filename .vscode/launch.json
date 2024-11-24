@@ -9,9 +9,13 @@
       "name": "Run Extension",
       "type": "extensionHost",
       "request": "launch",
-      "args": ["--extensionDevelopmentPath=${workspaceFolder}"],
-      "outFiles": ["${workspaceFolder}/out/**/*.js"],
-      "preLaunchTask": "${defaultBuildTask}"
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}"
+      ],
+      "outFiles": [
+        "${workspaceFolder}/dist/**/*.js"
+      ],
+      "preLaunchTask": "npm: build-watch"
     },
     {
       "name": "Extension Tests",
@@ -19,9 +23,11 @@
       "request": "launch",
       "args": [
         "--extensionDevelopmentPath=${workspaceFolder}",
-        "--extensionTestsPath=${workspaceFolder}/out/test/suite/index"
+        "--extensionTestsPath=${workspaceFolder}/dist/test/suite/index"
       ],
-      "outFiles": ["${workspaceFolder}/out/test/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/dist/test/**/*.js"
+      ],
       "preLaunchTask": "${defaultBuildTask}"
     }
   ]
