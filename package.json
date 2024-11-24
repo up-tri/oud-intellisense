@@ -43,7 +43,6 @@
   "scripts": {
     "vscode:prepublish": "tsc",
     "build": "tsc --project tsconfig.json",
-    "build:test": "tsc --project tsconfig.test.json",
     "build:watch": "tsc --project tsconfig.json --watch",
     "lint": "biome format .",
     "lint:fix": "biome format --write .",
