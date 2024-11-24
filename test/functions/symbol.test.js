@@ -17,8 +17,12 @@ suite("OuDiaDocumentSymbolProvider#provideDocumentSymbols", () => {
     );
 
     assert.notEqual(symbols, null);
-    assert.equal(symbols[0].range.start.line, 0);
-    assert.equal(symbols[0].range.end.line, 83);
-    assert.strictEqual(symbols[1].name, "駅パターン");
+    assert.equal(symbols.length, 2, "symbols.length");
+    assert.equal(symbols[0].range.start.line, 0, "symbols[0].range.start.line");
+    assert.equal(symbols[0].range.end.line, 0, "symbols[0].range.end.line");
+    assert.strictEqual(symbols[0].name, "FileType", "symbols[0].name");
+    assert.equal(symbols[1].range.start.line, 1, "symbols[1].range.start.line");
+    assert.equal(symbols[1].range.end.line, 60, "symbols[1].range.end.line");
+    assert.strictEqual(symbols[1].name, "Rosen", "symbols[1].name");
   });
 });
