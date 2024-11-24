@@ -9,11 +9,11 @@ https://marketplace.visualstudio.com/items?itemName=up-tri.oud-intellisense
 <details>
 <summary>outline view sample</summary>
 
-![outline sample - eki](docs/images/sample-Eki.png)
+![outline sample - eki](https://github.com/up-tri/oud-intellisense/blob/master/docs/images/sample-Eki.png?raw=true)
 
-![outline sample - resssya](docs/images/sample-Ressya.png)
+![outline sample - resssya](https://github.com/up-tri/oud-intellisense/blob/master/docs/images/sample-Ressya.png?raw=true)
 
-![outline sample - resssya_syubetsu](docs/images/sample-Ressyasyubetsu.png)
+![outline sample - resssya_syubetsu](https://github.com/up-tri/oud-intellisense/blob/master/docs/images/sample-Ressyasyubetsu.png?raw=true)
 
 </details>
 
